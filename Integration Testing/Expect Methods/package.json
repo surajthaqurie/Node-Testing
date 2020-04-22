@@ -1,0 +1,11 @@
+{
+  "name": "expect-methods",
+  "version": "1.0.0",
+  "description": "Mocha and Chai is used for integrated testing (BDD)",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Suraj Chand",
+  "license": "MIT"
+}

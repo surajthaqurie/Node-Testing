@@ -1,0 +1,25 @@
+{
+  "name": "testnode",
+  "version": "1.0.0",
+  "description": "Mocha and Chai for unit testing(TDD)",
+  "keywords": [
+    "Node",
+    "Mocha",
+    "Chai",
+    "Chai.assert",
+    "TDD Test"
+  ],
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "author": "Suraj Chand",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1"
+  }
+}
