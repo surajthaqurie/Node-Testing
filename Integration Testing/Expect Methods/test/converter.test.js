@@ -1,8 +1,8 @@
 const expect = require('chai').expect;
-const converter = require('../app/conveter');
+const converter = require('../app/converter');
 
 
-describe("Color Code Converter", function () {
+describe("Color Code converter", function () {
     describe("RGB to Hex conversion", function () {
         it("converts the basic colors", function () {
 
@@ -17,7 +17,7 @@ describe("Color Code Converter", function () {
 });
 
 
-describe('Color Code Converter', function () {
+describe('Color Code converter', function () {
     describe('RGB to hex conversion', function () {
         it('converts the basic colors', function () {
             const redHex = converter.rgbToHex(255, 0, 0);
