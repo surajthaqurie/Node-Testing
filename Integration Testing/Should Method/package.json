@@ -30,8 +30,8 @@
     "Mocha",
     "Chai",
     "Chai-http",
-    "Chai.Should",
+    "Request",
+    "Chai.Should()",
     "BDD Test"
-
   ]
 }
