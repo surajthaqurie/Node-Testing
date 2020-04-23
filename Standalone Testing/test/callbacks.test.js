@@ -20,3 +20,25 @@ describe.only("AsyncTest", function () {
         });
     });
 });
+
+
+
+// Added the `only` tag to have only this set tests to run
+describe.only("AsyncTest", function () {
+    it("should return `You get a sweet :)` if `true` is passed in", function (done) {
+        someMadeUpAsyncFunc(true, function (sweetCheck) {
+            expect(sweetCheck).to.equal("You get a sweet :)");
+            done();
+        });
+    });
+
+    it("Should return `You get nothing!!` if `false` is passed in", function (done) {
+        someMadeUpAsyncFunc(false, function (sweetCheck) {
+
+            // Let's fail it on purpose just to see what happens
+            // Failed -->   expect(sweetCheck).to.equal("You get a sweet :)");
+            expect(sweetCheck).to.equal("You get nothing!!");
+            done();
+        });
+    });
+});
