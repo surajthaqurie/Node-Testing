@@ -1,10 +1,9 @@
 # Node-Testing
-In this project both unit and integrated testing Is done by Mocha and Chai.
+In this project Unit, Integrated and Standalone testing Is done by Mocha, Chai and Sinon.
 # NodeJS Test
 [![Build Status](https://travis-ci.org/l3lackcurtains/NodeJS-Mocha-Chai-Test.svg?branch=master)](https://travis-ci.org/l3lackcurtains/NodeJS-Mocha-Chai-Test)
 [![Coverage Status](https://coveralls.io/repos/github/l3lackcurtains/NodeJS-Mocha-Chai-Test/badge.svg?branch=master)](https://coveralls.io/github/l3lackcurtains/NodeJS-Mocha-Chai-Test?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/l3lackcurtains/NodeJS-Mocha-Chai-Test/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/l3lackcurtains/NodeJS-Mocha-Chai-Test/?branch=master)
-[![Known Vulnerabilities](https://snyk.io/test/github/l3lackcurtains/nodejs-mocha-chai-test/badge.svg)](https://snyk.io/test/github/l3lackcurtains/nodejs-mocha-chai-test)
 
 Test steps:
 
